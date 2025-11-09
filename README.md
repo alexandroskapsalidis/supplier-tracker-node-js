@@ -9,7 +9,7 @@ This is a Node.js web application built with **Express.js** and **MySQL**, allow
 - Reusable layout via partials (header, footer)
 - 404 page for invalid URLs
 
-**Project Structure**
+## Project Structure
 - **app.js** → main Node.js server file.
 - **public/** → contains CSS files and other static assets.
 - **views/** → contains EJS files for page templates.
@@ -17,7 +17,7 @@ This is a Node.js web application built with **Express.js** and **MySQL**, allow
 - **index.ejs** → main landing page showing all suppliers.
 - **404.ejs** → displayed for invalid routes.
 
-**Database Setup**
+## Database Setup
 1. Open `supplier-tracker_DBschema.sql` in your MySQL client.
 2. Execute the SQL to create the database and insert sample data.
 3. Update the database credentials in `app.js`:
@@ -29,17 +29,18 @@ const mysqlConnection = mysql.createConnection({
   multipleStatements: true
 });
 
-**Start the server**:
+## Start the server:
 npm start
 
-**Open in your browser**:
+## Open in your browser:
 http://localhost:3000
-
+###
 A visual view of All Suppliers page:
-<img width="1000" height="653" alt="All Suppliers" src="https://github.com/user-attachments/assets/455eb52a-77bb-4a5d-a3fd-3bddc792e28b" />
-
+ 
+<img width="600" height="653" alt="All Suppliers" src="https://github.com/user-attachments/assets/455eb52a-77bb-4a5d-a3fd-3bddc792e28b" />
+###
 A visual view of the Update Supplier page:
-<img width="1000" height="742" alt="Update Supplier" src="https://github.com/user-attachments/assets/d9cfb236-697c-4629-87ea-72b0591ba9e8" />
+<img width="600" height="742" alt="Update Supplier" src="https://github.com/user-attachments/assets/d9cfb236-697c-4629-87ea-72b0591ba9e8" />
 
 
 
