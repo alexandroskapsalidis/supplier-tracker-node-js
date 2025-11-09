@@ -19,8 +19,10 @@ Then in the web browser type "http://localhost: [port number]". It will automati
 load the "index.ejs" file.
 
 A visual view of All Suppliers
-<img width="2737" height="1787" alt="All Suppliers" src="https://github.com/user-attachments/assets/d64d516a-e0c0-436b-8120-eb8648348eaf" />
+<img width="1532" height="1000" alt="All Suppliers" src="https://github.com/user-attachments/assets/160cddc7-861c-45f5-b142-6981f530b76d" />
+
 
 A visual view of the Update Supplier page
-<img width="2737" height="2031" alt="Update Supplier" src="https://github.com/user-attachments/assets/855f447d-55b3-436a-8d4a-eb56a4e9e631" />
+<img width="1348" height="1000" alt="Update Supplier" src="https://github.com/user-attachments/assets/cddd1aa5-a4bd-4f26-80e6-ab2e1112855c" />
+
 
