@@ -18,11 +18,11 @@ Create a local server, like live server of Visual Studio Code, listening to a po
 Then in the web browser type "http://localhost: [port number]". It will automatically
 load the "index.ejs" file.
 
-A visual view of All Suppliers
-<img width="1532" height="1000" alt="All Suppliers" src="https://github.com/user-attachments/assets/160cddc7-861c-45f5-b142-6981f530b76d" />
+A visual view of All Suppliers:
+<img width="1000" height="653" alt="All Suppliers" src="https://github.com/user-attachments/assets/455eb52a-77bb-4a5d-a3fd-3bddc792e28b" />
 
+A visual view of the Update Supplier page:
+<img width="1000" height="742" alt="Update Supplier" src="https://github.com/user-attachments/assets/d9cfb236-697c-4629-87ea-72b0591ba9e8" />
 
-A visual view of the Update Supplier page
-<img width="1348" height="1000" alt="Update Supplier" src="https://github.com/user-attachments/assets/cddd1aa5-a4bd-4f26-80e6-ab2e1112855c" />
 
 
