@@ -2,7 +2,7 @@
 
 This is a Node.js web application built with **Express.js** and **MySQL**, allowing CRUD operations (Create, Read, Update, Delete) on suppliers and products.  
 
-## Project Structure
+## Features
 - View all suppliers and their products
 - Add, update, and delete supplier records
 - Dynamic HTML rendering with **EJS templates**
@@ -34,16 +34,15 @@ npm start
 
 ## Open in your browser:
 http://localhost:3000
-<br>
-
+<br> <br> <br>
 A visual view of All Suppliers page:
-<br>
+<br> <br> 
 <img width="600" height="653" alt="All Suppliers" src="https://github.com/user-attachments/assets/455eb52a-77bb-4a5d-a3fd-3bddc792e28b" />
 <br>
 <br>
 
 A visual view of the Update Supplier page:
-<br>
+<br> <br> 
 <img width="600" height="742" alt="Update Supplier" src="https://github.com/user-attachments/assets/d9cfb236-697c-4629-87ea-72b0591ba9e8" />
 
 
