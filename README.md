@@ -1,24 +1,41 @@
-This is a Node.js web application using the Express.js framework. It connects
-to a Database and carries out mainly CRUD (Create, Read, Update, Delete) operations.
+# Supplier Tracker
 
-The node.js code resides inside the app.js file. There is a folder called
-public which has the CSS files. Another folder called views, has the content
-to be shown in the browser (the ejs files). The ejs files allow us to write
-html templates and also inject dynamic data logic into them. Some repeated html
-code is in separate ejs files inside the partials folder. When application runs
-it loads first the "index.ejs" file. If the URL is wrong, it redirects to a 404 page.
+This is a Node.js web application built with **Express.js** and **MySQL**, allowing CRUD operations (Create, Read, Update, Delete) on suppliers and products.  
 
-The "supplier-tracker_DBschema.sql" file contains the SQL code to create the
-Database and enter some data. Then to connect to the Database you have to enter
-the username and password of the Database, in the mysql.createConnection() function,
-inside the "app.js" file or create a user and use his credentials.
+## Project Structure
+- View all suppliers and their products
+- Add, update, and delete supplier records
+- Dynamic HTML rendering with **EJS templates**
+- Reusable layout via partials (header, footer)
+- 404 page for invalid URLs
 
-To test the application:
-Create a local server, like live server of Visual Studio Code, listening to a port.
-Then in the web browser type "http://localhost: [port number]". It will automatically
-load the "index.ejs" file.
+**Project Structure**
+- **app.js** → main Node.js server file.
+- **public/** → contains CSS files and other static assets.
+- **views/** → contains EJS files for page templates.
+  - **partials/** → contains reusable HTML snippets (e.g., header, footer).
+- **index.ejs** → main landing page showing all suppliers.
+- **404.ejs** → displayed for invalid routes.
 
-A visual view of All Suppliers:
+**Database Setup**
+1. Open `supplier-tracker_DBschema.sql` in your MySQL client.
+2. Execute the SQL to create the database and insert sample data.
+3. Update the database credentials in `app.js`:
+const mysqlConnection = mysql.createConnection({
+  host: "localhost",
+  user: "your_db_username",
+  password: "your_db_password",
+  database: "supplier_tracker",
+  multipleStatements: true
+});
+
+**Start the server**:
+npm start
+
+**Open in your browser**:
+http://localhost:3000
+
+A visual view of All Suppliers page:
 <img width="1000" height="653" alt="All Suppliers" src="https://github.com/user-attachments/assets/455eb52a-77bb-4a5d-a3fd-3bddc792e28b" />
 
 A visual view of the Update Supplier page:
