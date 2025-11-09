@@ -20,14 +20,14 @@ This is a Node.js web application built with **Express.js** and **MySQL**, allow
 **Database Setup**
 1. Open `supplier-tracker_DBschema.sql` in your MySQL client.
 2. Execute the SQL to create the database and insert sample data.
-3. Update the database credentials in `app.js`:
-const mysqlConnection = mysql.createConnection({
-  host: "localhost",
-  user: "your_db_username",
-  password: "your_db_password",
-  database: "supplier_tracker",
-  multipleStatements: true
-});
+3. Update the database credentials in `app.js`: <br>
+const mysqlConnection = mysql.createConnection({ <br>
+  host: "localhost", <br>
+  user: "your_db_username", <br>
+  password: "your_db_password", <br>
+  database: "supplier_tracker", <br>
+  multipleStatements: true <br>
+}); <br>
 
 **Start the server:** <br>
 npm start
