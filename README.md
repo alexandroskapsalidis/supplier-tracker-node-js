@@ -2,14 +2,14 @@
 
 This is a Node.js web application built with **Express.js** and **MySQL**, allowing CRUD operations (Create, Read, Update, Delete) on suppliers and products.  
 
-## Features
+**Features**
 - View all suppliers and their products
 - Add, update, and delete supplier records
 - Dynamic HTML rendering with **EJS templates**
 - Reusable layout via partials (header, footer)
 - 404 page for invalid URLs
 
-## Project Structure
+**Project Structure**
 - **app.js** → main Node.js server file.
 - **public/** → contains CSS files and other static assets.
 - **views/** → contains EJS files for page templates.
@@ -17,7 +17,7 @@ This is a Node.js web application built with **Express.js** and **MySQL**, allow
 - **index.ejs** → main landing page showing all suppliers.
 - **404.ejs** → displayed for invalid routes.
 
-## Database Setup
+**Database Setup**
 1. Open `supplier-tracker_DBschema.sql` in your MySQL client.
 2. Execute the SQL to create the database and insert sample data.
 3. Update the database credentials in `app.js`:
